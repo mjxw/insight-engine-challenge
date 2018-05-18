@@ -1,6 +1,4 @@
 import { Component } from '@angular/core';
-import {HttpClient, HttpErrorResponse} from '@angular/common/http';
-import {API_URL} from './env';
 
 
 @Component({
@@ -9,5 +7,4 @@ import {API_URL} from './env';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
 }
